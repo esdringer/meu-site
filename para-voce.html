@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol Mania - Para Você</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Futebol Mania</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="recordes.html">Recordes</a></li>
+                <li><a href="para-voce.html">Para Você</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="quiz" class="centralizado">
+            <h2>Quiz sobre Futebol</h2>
+            <form id="quiz-form">
+                <label for="name">Qual o seu nome?</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="q1">Quantas Copas do Mundo a seleção brasileira tem?</label><br>
+                <input type="number" id="q1" name="q1" min="0" required><br><br>
+
+                <label for="q2">Qual o time com a maior torcida do Brasil?</label><br>
+                <input type="text" id="q2" name="q2" required><br><br>
+
+                <label for="q3">Em que país aconteceu a última Copa do Mundo?</label><br>
+                <input type="text" id="q3" name="q3" required><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="resultado"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Futebol Mania. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

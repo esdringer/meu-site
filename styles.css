@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #006400; 
+    color: #ffffff; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#inicio {
+    background-image: url(image.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio h2 {
+    margin-bottom: 20px;
+}
+
+.centralizado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px; 
+}
+
+.centralizado .recordes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.centralizado .recorde {
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 20px 0; 
+    width: 80%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
+}
+
+.centralizado .recorde h3 {
+    margin-top: 0; 
+    color: #006400; 
+}
+
+.centralizado .recorde p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #006400; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#quiz-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#quiz-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#quiz-form input[type="text"],
+#quiz-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#quiz-form button {
+    padding: 10px 20px;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
